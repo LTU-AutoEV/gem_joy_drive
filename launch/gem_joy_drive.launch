@@ -1,0 +1,10 @@
+<launch>
+
+   <!-- Launch the joystick node and test node -->
+   <param name="joy_node/dev" value="/dev/input/js2" />
+   <node pkg="joy" type="joy_node" name="joy_node" output="screen" />
+
+   <!-- Launch the gem joy drive node -->
+   <node pkg="gem_joy_drive" type="gem_joy_drive.py" name="gem_joy_drive" output="screen" />
+
+</launch>
