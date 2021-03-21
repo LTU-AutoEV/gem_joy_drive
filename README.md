@@ -4,15 +4,15 @@ Drive the GEM vehicle using a Joystick with a python ROS node
 # Directions
 To run in the vehicle with DBW installed:
 
-'''
+```
 roslaunch gem_joy_drive gem_joy_drive_dbw.launch sys:=true
-'''
+```
 
 To run without CAN network for testing
 
-'''
+```
 roslaunch gem_joy_drive gem_joy_drive_dbw.launch
-'''
+```
 
 # Joystick mappings
 
